@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c380df3-c12d-4cd8-a540-814f41195628">
+  <producedTypes>
+    <objectType typeId="306fe76a-2d35-4c3c-b5f8-bc39732672ab" valueTypeId="ae945b1f-17b0-4430-a8a1-7a369d374ac2"/>
+    <refType typeId="4cfd9c76-adbd-49bd-beb6-06dbbbedceed" valueTypeId="06367bb7-2b07-4759-b806-5eea5871b321"/>
+    <selectionType typeId="cfe892d8-e58b-4dc6-9b2a-6bfc62bf3a60" valueTypeId="421d6590-16af-4b89-ae39-2760b672a78e"/>
+    <listType typeId="b1ec14bf-00fe-41ee-9153-d27406f303f1" valueTypeId="800470d1-bd66-4e40-b800-e8d86b3a00d2"/>
+    <managerType typeId="4c5ee52e-6996-4e14-8153-6e1a62981198" valueTypeId="38b078ef-5f41-427a-9931-81a1b8e85635"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Номенклатура.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="06b76d7c-c0de-4266-8056-2f6dec08746b">
+    <name>НаименованиеДляПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование для печати</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e6c8dd13-fd0b-4074-b680-273dd5b295ba">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c75b13dc-7c46-4710-b52e-8e98f6323500">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
