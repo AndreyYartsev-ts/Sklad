@@ -83,6 +83,46 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
+    <name>НаименованиеДляПечати</name>
+    <id>10</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.НаименованиеДляПечати</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>НаименованиеДляПечатиРасширеннаяПодсказка</name>
+      <id>12</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>НаименованиеДляПечатиКонтекстноеМеню</name>
+      <id>11</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
     <name>ЮридическийАдрес</name>
     <id>7</id>
     <visible>true</visible>
@@ -122,6 +162,39 @@
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
     </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>АвтоматическиОтправлятьАктСверки</name>
+    <id>13</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.АвтоматическиОтправлятьАктСверки</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>АвтоматическиОтправлятьАктСверкиРасширеннаяПодсказка</name>
+      <id>15</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>АвтоматическиОтправлятьАктСверкиКонтекстноеМеню</name>
+      <id>14</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
   </items>
   <autoCommandBar>
     <name>FormCommandBar</name>

@@ -64,6 +64,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="d56c6e66-e221-4f36-9ea9-f6ddfaccf3f1">
+    <name>АвтоматическиОтправлятьАктСверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически отправлять акт сверки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="e923cd50-1f2b-4410-91d7-13ced15500db">
     <name>ФормаСписка</name>
     <synonym>
