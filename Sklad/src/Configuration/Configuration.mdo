@@ -42,6 +42,7 @@
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
   <documents>Document.поступлениеТовара</documents>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
 </mdclass:Configuration>
