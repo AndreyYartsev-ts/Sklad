@@ -44,5 +44,6 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Договоры</catalogs>
   <documents>Document.поступлениеТовара</documents>
+  <enums>Enum.ТипНоменклатуры</enums>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
 </mdclass:Configuration>
