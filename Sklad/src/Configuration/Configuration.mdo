@@ -43,6 +43,7 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
   <documents>Document.поступлениеТовара</documents>
   <enums>Enum.ТипНоменклатуры</enums>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
