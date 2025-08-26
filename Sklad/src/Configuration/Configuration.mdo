@@ -44,6 +44,7 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.УсловияХранения</catalogs>
   <documents>Document.поступлениеТовара</documents>
   <enums>Enum.ТипНоменклатуры</enums>
   <reports>Report.ДвиженияТоваров</reports>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="710b0190-1ea6-4d5b-b6b4-b4bbaeaffab8">
+  <producedTypes>
+    <objectType typeId="ec5180d0-ac09-478d-be1c-6019f6e00ef4" valueTypeId="ef0c31f7-8e14-40fe-b4ef-75d810fa5329"/>
+    <refType typeId="b3f2c58a-f868-476d-b27a-8ebf8f7e4bd7" valueTypeId="f0490789-e41a-4096-a597-01b97e435687"/>
+    <selectionType typeId="4c7dad98-48dd-401d-8b11-cf1ace63aadd" valueTypeId="19c96a02-2c43-418e-b24b-75a3a2963a7b"/>
+    <listType typeId="a8767b13-ab5d-43d4-bca6-f5491df03692" valueTypeId="943d9b03-fc8b-4bb0-a31c-14530289224d"/>
+    <managerType typeId="36400f0b-d094-440a-a1a4-770435cf3c28" valueTypeId="25619ec6-7270-4de1-956c-d6e1c49dbb08"/>
+  </producedTypes>
+  <name>УсловияХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Условия хранения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УсловияХранения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УсловияХранения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
