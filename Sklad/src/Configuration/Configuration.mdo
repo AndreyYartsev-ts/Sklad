@@ -46,5 +46,6 @@
   <catalogs>Catalog.Склады</catalogs>
   <documents>Document.поступлениеТовара</documents>
   <enums>Enum.ТипНоменклатуры</enums>
+  <reports>Report.ДвиженияТоваров</reports>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
 </mdclass:Configuration>
